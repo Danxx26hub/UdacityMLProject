@@ -8,3 +8,8 @@ def add(x):
 
 def subtract(x):
     return x - 1
+
+
+def whattype(item):
+    itemType = type(item)
+    print(itemType)
